@@ -1,0 +1,45 @@
+{
+  "name": "admin_web_kpu",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "firebase": "^5.8.3",
+    "jwt-decode": "^2.2.0",
+    "postcss-loader": "^3.0.0",
+    "quill-image-resize-module": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "register-service-worker": "^1.5.2",
+    "socket.io-client": "^2.2.0",
+    "uniqid": "^5.0.3",
+    "vee-validate": "^2.1.7",
+    "vue": "^2.5.22",
+    "vue-axios": "^2.1.4",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vue-session": "^1.0.0",
+    "vue-sweetalert2": "^1.6.4",
+    "vue2-editor": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.7.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

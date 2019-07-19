@@ -1,0 +1,12 @@
+.tabelku tr td{
+  border-color: rgb(168, 168, 168);
+  border-width: 0.1px;
+  border-style: solid;
+  /* or, of course,
+  border: 1px solid #000;
+  */
+}
+
+.h_padding{
+  padding-left: 1%;
+}
